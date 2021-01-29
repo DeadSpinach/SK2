@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxWidth="-Infinity" prefHeight="179.0" prefWidth="720.0" style="-fx-background-color: #d5d5d5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+
+      <Text fill="#2821ff" layoutX="20.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topic: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="topicText" layoutX="73.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="topic-name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+
+      <Text fx:id="titleText" fill="#2821ff" layoutX="20.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+
+      <TextArea fx:id="contentTextArea" editable="false" layoutX="20.0" layoutY="77.0" prefHeight="84.0" prefWidth="680.0" style="-fx-background-radius: 0; -fx-control-inner-background: #ffffff; -fx-text-box-border: #2821ff; -fx-text-inner-color: #000000; -fx-focus-color: #4fcec6; -fx-wrap-text: true;" wrapText="true" />
+      <Text fill="#2821ff" layoutX="286.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="authorText" layoutX="352.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="author-name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+
+   </children>
+</AnchorPane>

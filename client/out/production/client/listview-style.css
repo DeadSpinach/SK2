@@ -1,0 +1,38 @@
+.messagesListView .scroll-bar:horizontal .track,
+.messagesListView .scroll-bar:vertical .track {
+	-fx-background-color: #242529;
+	-fx-border-color: transparent;
+	-fx-background-radius: 0em;
+	-fx-border-radius: 2em;
+}
+ 
+.messagesListView .scroll-bar:horizontal .increment-button,
+.messagesListView .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+	-fx-background-radius: 0em;
+	-fx-padding: 0 0 10 0;
+}
+ 
+.messagesListView .scroll-bar:vertical .increment-button,
+.messagesListView .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+	-fx-background-radius: 0em;
+	-fx-padding: 0 10 0 0;
+}
+ 
+.messagesListView .scroll-bar .increment-arrow,
+.messagesListView .scroll-bar .decrement-arrow {
+	-fx-shape: " ";	
+	-fx-padding: 0;
+}
+ 
+.messagesListView .scroll-bar:horizontal .thumb,
+.messagesListView .scroll-bar:vertical .thumb {
+    -fx-background-color: derive(black,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}
+
+.messagesListView {
+	-fx-control-inner-background: none;
+}
